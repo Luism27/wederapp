@@ -27,3 +27,24 @@ Para ejcutar el front ejecutar el siguiente comando `cd front` y `yarn` o `npm i
 ## Back
 Se debe crear un archivo .env en la carpeta back (mirar .env.example para ver los valores de los token)
 Para ejecutar el back ejecutar el siguiente comando `cd back` y `npm i`, regresar a la raíz del proyecto y ejecutar `npm run dev-back`
+
+## DATOS 
+.env= `
+    //MONGODB
+    MONGO_URL = mongodb+srv://luism27:Marquezluis27@finalproject.h1der.mongodb.net/weatherApp?retryWrites=true&w=majority
+
+    //Token weather
+    OPEN_WEATHER_TOKEN = 0d2883e4d1d64c9cae451728212304
+`
+
+en configuracion firebase en el front
+
+fire.js = `
+    apiKey: "AIzaSyCSdd6XvqQX6Wq5vOUaBhqu2najgJz_39c",
+    authDomain: "neurons-f0ef3.firebaseapp.com",
+    projectId: "neurons-f0ef3",
+    storageBucket: "neurons-f0ef3.appspot.com",
+    messagingSenderId: "689189209717",
+    appId: "1:689189209717:web:76b5346dc618ad8e5a9a3c",
+    measurementId: "G-BDKZCRXY6X"
+`
