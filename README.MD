@@ -22,7 +22,7 @@ Para los estilos se usa principalmente Materia-ui y algunas clases de Bootstrap.
 # Ejecución en desarrollo 
 descargar el proyecto y tener yarn descargado.
 ## Front
-Copiar los datos de firebase en `front/src/config.fire.js` por los correspondientes
+Copiar los datos de firebase en `front/src/config.fire.js` por los correspondientes.
 Para ejcutar el front ejecutar el siguiente comando `cd front` y `yarn` o `npm i` luego regresar a la raíz del proyecto y ejecutar `npm run dev-front`
 ## Back
 Se debe crear un archivo .env en la carpeta back (mirar .env.example para ver los valores de los token)
